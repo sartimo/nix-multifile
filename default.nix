@@ -8,7 +8,7 @@ let
   # Define the install phase where we output the value of the imported variable
   installPhase = ''
     mkdir -p $out
-    echo "The value of the global variable is: ${config.globalVariable}" > $out/message.txt
+    echo "The value of the global variable is: ${config.globalVariable}"
   '';
 in
 
