@@ -1,0 +1,3 @@
+{
+  globalVariable = "Hello, world!";
+}
