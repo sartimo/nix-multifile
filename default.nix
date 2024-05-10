@@ -66,7 +66,7 @@ in
 pkgs.stdenv.mkDerivation {
   name = "nix-ssg";
   src = ./.;
-  phases = [ "installPhase", "buildPhase" ];
+  phases = [ "installPhase" "buildPhase" ];
   # Explicitly define the out symlink
   installPhase = installPhase;
   buildPhase = buildPhase;
